@@ -1,6 +1,10 @@
 body {
   background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQtdxOdI1Y-P4B-FJJnHWFRL2tpFSdUGiOX52OV1qCURYpfqV6H");
+}
 
+p {
+  color: white;
+  text-align: center;
 }
 
 img {
@@ -34,29 +38,36 @@ img {
   color: black;
 }
 
-button {
+.logo {
   background-color: black;
   border: none;
   padding: inherit;
 }
 
 h1 {
-  padding-top: 8%;
+  padding-top: 7%;
   text-decoration: underline;
   color: white;
   text-align: center;
+  font-size: 50px;
 }
 
 .big {
   justify-content: center;
   display: grid;
-  grid-template: 400px / 300px 310px 300px;
+  grid-template: 350px / 300px 310px 300px;
   grid-gap: 100px;
 }
 
 .small {
   background-color: grey;
   border: 1px solid black;
+}
+
+.small p {
+  padding-left: 2%;
+  width: 90%;
+  text-align: center;
 }
 
 h2 {
@@ -68,4 +79,52 @@ h2 {
   padding-left: 8%;
   height: 120px;
   width: 250px;
+}
+
+.sec2 {
+  background-color: grey;
+  text-align: center;
+}
+
+form {
+  height: 200px;
+  /* width; */
+  background-color: grey;
+  color: white;
+  padding: 10px;
+  border: 3px solid black;
+}
+
+label {
+  font-size: 40px;
+  color: white;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.frm {
+  display: grid;
+  grid-template: 40px / 250px 100px;
+  grid-gap: 20px;
+  padding-left: 10%;
+  padding-top:20%;
+}
+
+.frm2{
+  display: grid;
+  grid-template: 100px / 200px 100px;
+  grid-gap: 20px;
+  font-size: 25px;
+}
+
+#mund {
+  height: 200px;
+  width: 200px;
+}
+
+.sec2 form {
+  padding-left: 4%;
+  display: grid;
+  grid-template: 100px / 400px 200px 700px;
+  grid-gap: 200px;
 }
