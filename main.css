@@ -5,6 +5,7 @@ body {
 p {
   color: white;
   text-align: center;
+  font-family: sans-serif;
 }
 
 img {
@@ -73,6 +74,7 @@ h1 {
 h2 {
   color: white;
   text-align: center;
+  font-family: monospace;
 }
 
 .paper {
@@ -88,7 +90,6 @@ h2 {
 
 form {
   height: 200px;
-  /* width; */
   background-color: grey;
   color: white;
   padding: 10px;
@@ -127,4 +128,40 @@ label {
   display: grid;
   grid-template: 100px / 400px 200px 700px;
   grid-gap: 200px;
+}
+
+.fam {
+  background-color: grey;
+  height: 750px;
+}
+
+h3 {
+  color: white;
+  text-align: center;
+  font-size: 40px;
+  text-decoration: underline;
+}
+
+.fam2 {
+  display: grid;
+  grid-template: 100% / 650px 500px;
+  grid-gap: 40px;
+  padding-left: 2%;
+}
+
+.cast {
+  display: grid;
+  grid-template: 200px 200px 200px / 200px 200px 200px;
+  grid-gap: 10px;
+}
+
+.pic {
+  width: 100%;
+  height: 100%;
+  border: 1px solid black;
+}
+
+#abt {
+  font-size: 27px;
+  font-family: monospace;
 }
