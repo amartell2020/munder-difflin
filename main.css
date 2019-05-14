@@ -16,7 +16,7 @@ img {
 .navbar {
   display: grid;
   grid-template: 90px / 160px 175px 150px 100px 100px;
-  background-color: black;
+  background-color: rgb(0, 135, 255);
   grid-gap: 75px;
   position: fixed;
   top: 0;
@@ -47,10 +47,10 @@ img {
 
 h1 {
   padding-top: 7%;
-  text-decoration: underline;
+  text-decoration: none;
   color: white;
   text-align: center;
-  font-size: 50px;
+  font-size: 60px;
 }
 
 .big {
@@ -61,7 +61,7 @@ h1 {
 }
 
 .small {
-  background-color: grey;
+  background-color: rgb(0, 135, 255);
   border: 1px solid black;
 }
 
@@ -84,13 +84,13 @@ h2 {
 }
 
 .sec2 {
-  background-color: grey;
+  background-color: rgb(0, 135, 255);
   text-align: center;
 }
 
 form {
   height: 200px;
-  background-color: grey;
+  background-color: rgb(0, 135, 255);
   color: white;
   padding: 10px;
   border: 3px solid black;
@@ -111,7 +111,7 @@ label {
   padding-top:20%;
 }
 
-.frm2{
+#frm2{
   display: grid;
   grid-template: 100px / 200px 100px;
   grid-gap: 20px;
@@ -130,8 +130,8 @@ label {
   grid-gap: 200px;
 }
 
-.fam {
-  background-color: grey;
+#fam {
+  background-color: rgb(0, 135, 255);
   height: 750px;
 }
 
@@ -140,18 +140,19 @@ h3 {
   text-align: center;
   font-size: 40px;
   text-decoration: underline;
+  font-family: monospace;
 }
 
-.fam2 {
+#fam2 {
   display: grid;
   grid-template: 100% / 650px 500px;
-  grid-gap: 40px;
-  padding-left: 2%;
+  grid-gap: 50px;
+  padding-left: 1%;
 }
 
-.cast {
+#cast {
   display: grid;
-  grid-template: 200px 200px 200px / 200px 200px 200px;
+  grid-template: 200px 200px 200px / 220px 220px 220px;
   grid-gap: 10px;
 }
 
